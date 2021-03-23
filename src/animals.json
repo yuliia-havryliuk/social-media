@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Bird",
+    "height": 21,
+    "color": "yellow",
+    "about": {
+      "name": "Bulochka",
+      "url": "https://earthsky.org/upl/2019/04/bluejay-e1554247141817.jpg"
+    },
+    "quantity": 10
+  },
+  {
+    "id": 2,
+    "name": "Dog",
+    "height": 51,
+    "color": "black",
+    "about": {
+      "name": "Woof",
+      "url": "https://www.hpcismart.com/images/website/ManChemNews/DIR_205/F_103468.jpg"
+    },
+    "quantity": 0
+  },
+  {
+    "id": 3,
+    "name": "Cow",
+    "height": 81,
+    "color": "yellow",
+    "about": {
+      "name": "Moow",
+      "url": "https://www.msd-animal-health.com.ua/wp-content/uploads/sites/25/2020/01/MAH-Home-Cattle.jpg"
+    },
+    "quantity": 34
+  },
+  {
+    "id": 4,
+    "name": "Deer",
+    "height": 121,
+    "color": "brown",
+    "about": {
+      "name": "Dossy",
+      "url": "https://voiceless.org.au/wp-content/uploads/2020/04/ALE_Frontpage_Slideshow_1900x775.jpg"
+    },
+    "quantity": 150
+  },
+  {
+    "id": 5,
+    "name": "Wolf",
+    "height": 71,
+    "color": "yellow",
+    "about": {
+      "name": "Wolfi",
+      "url": "https://earthsky.org/upl/2019/04/bluejay-e1554247141817.jpg"
+    },
+    "quantity": 0
+  }
+]
