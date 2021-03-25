@@ -1,0 +1,26 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+}
+.box-small{
+    width: 50px;
+    height: 50px;
+}
+.box-middle{
+    width: 100px;
+    height: 100px;
+}
+.box-large{
+    width: 200px;
+    height: 200px;
+}
+/*створюємо новий клас, який користувач може викликати в  classNames*/
+.big{
+    width: 300px;
+    height: 300px;
+}
+.green{
+    background-color: greenyellow;
+}

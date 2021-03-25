@@ -1,0 +1,36 @@
+.Counter{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    padding: 40px;
+    border: 10px solid gold;
+    border-radius: 30px;
+}
+.Counter__value{
+    font-size: 25px;
+}
+.Counter__controls{
+    padding-top: 20px;
+}
+.Counter__controls button{
+    padding: 15px;
+    background-color: greenyellow;
+    color: indigo;
+    border: unset;
+    border-radius: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Counter__controls button:last-child{
+    margin-right: unset;
+}
+.Counter__controls button:hover{
+    transform:scale(1.1);
+    transition: .2s ease-in-out;
+}

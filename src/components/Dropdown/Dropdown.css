@@ -1,0 +1,24 @@
+.Dropdown__btns{
+    display:flex;
+    justify-content:center;
+}
+.Dropdown__toggle{
+    padding:15px;
+    background-color:gold;
+    border: #b86e00 1px solid;
+    border-radius:10px;
+    outline: none;
+    width: 70px;
+    margin:20px;
+}
+.Dropdown__toggle:hover{
+    background-color: bisque;
+    border: #b86e00 1px solid;
+    transition: .3s;
+}
+.Dropdown__menu{
+    padding:20px 0 20px 0;
+    text-align:center;
+    background-color: greenyellow;
+    font-size: 24px;
+}

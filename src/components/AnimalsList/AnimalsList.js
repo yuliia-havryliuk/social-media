@@ -1,4 +1,4 @@
-import AnimalItem from './AnimalItem';
+import AnimalItem from '../AnimalItem';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -7,11 +7,12 @@ function AnimalsList({ items }) {
     <ul>
       {items.map(item => (
         <li key={item.id}>
-          <AnimalItem
+          {/*<AnimalItem {...item} />*/}
+             <AnimalItem
             name={item.name}
             shortName={item.about.name}
-            color1={item.color}
-            height1={item.height}
+            color={item.color}
+            height={item.height}
             imageUrl={item.about.url}
             quantity={item.quantity}
           />
